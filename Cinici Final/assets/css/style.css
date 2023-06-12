@@ -37,6 +37,28 @@
   margin-top: 1rem;
 }
 
+.dropdown-qadin {
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  width: 70%;
+  height: 36rem;
+  left: 15rem;
+  top: 4.5rem;
+  display: none;
+}
+.dropdown-qadin a {
+  display: block;
+  text-decoration: none;
+  color: #272727;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.dropdown-qadin .col-lg-3 {
+  z-index: -1;
+  padding: 2rem;
+}
+
 .section-1 .section-1-img-div img {
   width: 100%;
 }
@@ -58,6 +80,9 @@
   margin-top: 3rem;
 }
 
+.section-2 {
+  margin-top: 14rem;
+}
 .section-2 .h2-and-button {
   position: absolute;
   bottom: 41px;
@@ -95,4 +120,102 @@
   width: 610px;
   height: 400px;
   overflow: hidden;
+}
+
+.slider-items {
+  position: relative;
+}
+.slider-items img {
+  width: 100%;
+}
+.slider-items .slider-words {
+  position: absolute;
+  top: 7rem;
+  left: 6rem;
+}
+.slider-items h2 {
+  color: white;
+}
+.slider-items button {
+  width: 8rem;
+  height: 2.6rem;
+  background-color: #272727;
+  color: white;
+  border: 1px solid #272727;
+  margin-top: 1rem;
+  transition: 0.3s;
+}
+.slider-items button:hover {
+  background-color: white;
+  color: #272727;
+}
+
+.section-3 {
+  margin-top: 10rem;
+}
+.section-3 h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.section-3 .container :first-child {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-items2 img {
+  width: 100%;
+}
+.slider-items2 h5 {
+  color: #272727;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.slider-items2 p {
+  color: #A5A5A5;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.slider-items2 span {
+  color: #272727;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 10rem;
+}
+footer .col-lg-2 a {
+  display: block;
+  text-decoration: none;
+  color: #272727;
+  font-weight: 300;
+}
+footer .col-lg-2 h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+footer .col-lg-4 input {
+  width: 70%;
+  border: 2px solid #272727;
+  padding: 10px 2rem;
+  border-radius: 5px;
+}
+footer .col-lg-4 button {
+  width: 29%;
+  background-color: #272727;
+  color: white;
+  border-radius: 5px;
+}
+footer .col-lg-4 h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+footer .col-lg-4 i {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 50%;
+  padding: 4px;
+  transition: 0.3s;
+}
+footer .col-lg-4 i:hover {
+  background-color: #e4013a;
 }/*# sourceMappingURL=style.css.map */
