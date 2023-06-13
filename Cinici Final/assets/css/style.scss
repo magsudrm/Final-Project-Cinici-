@@ -38,7 +38,7 @@ justify-content: space-between;
         margin-top: 1rem;
     }
 }
-.dropdown-qadin{
+.dropdown-content{
     background-color: #ffff;
     z-index: 1;
     position: absolute;
@@ -55,10 +55,28 @@ justify-content: space-between;
         cursor: pointer;
     }
     .col-lg-3{
-        z-index: -1;
+        padding: 2rem;
+    }
+    .col-lg-4{
         padding: 2rem;
     }
 }
+
+.dropdown-qadin{
+    &:hover{
+        .dropdown-content{
+            display: block;
+        }
+    }
+}
+.dropdown-kisi{
+    &:hover{
+        .dropdown-content{
+            display: block;
+        }
+    }
+}
+
 .section-1{
     .section-1-img-div img{
         width: 100%;
@@ -162,12 +180,8 @@ justify-content: space-between;
     h2{
         font-size: 1.4rem;
         font-weight: 400;
-    }
-    .container{
-        :first-child{
-            display: flex;
-            justify-content: center;
-        }
+        display: flex;
+        justify-content: center;
     }
 }
 .slider-items2{
@@ -189,6 +203,106 @@ justify-content: space-between;
         font-size: 14px
 
     };
+}
+
+.section-1-detail{
+    margin-top: 3rem;
+    .main-div{
+        width: 300px;
+        height: 300px;
+        img{
+            width: 100%;
+        }
+    }
+    .thumbnail.selected {
+        border: 2px solid $color1;
+      }
+      .thumbnail{
+        width: 8rem;
+        height: 11rem;
+        img{
+            width: 100%;
+        }
+      }
+
+      #main-div{
+        img{
+            width: 100%;
+        }
+      }
+      .name-p{
+        font-size: 1.4rem;
+        font-weight: 350;
+        color: $color1;
+      }
+      .code-p{
+        font-size: 1.1rem;
+        color: $color3;
+        font-weight: 350;
+      }
+      .price-span{
+        font-size: 1.2rem;
+        color: $color1;
+        font-weight: 350;
+      }
+      .color-div{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 5px;
+      }
+      .color-p{
+        font-size: 1.1rem;
+        font-weight: 350;
+        color: $color1;
+        margin-top: 1rem;
+      }
+}
+.section-2-detail{
+    img{
+        width: 100%;
+    }
+    h5{
+        color: $color1;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    p{
+        color: $color3;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    span{
+        color: $color1;
+        font-size: 14px
+
+    }
+    button{
+        width: 15rem;
+        height: 3rem;
+        border: 1px solid $color1;
+        color: $color1;
+        font-weight: 350;
+        transition: 0.3s;
+        &:hover{
+            background-color: $color1;
+            color: #ffff;
+        }
+    }
+    .kisi-button-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    h1{
+        font-weight: 350;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
 }
 
 footer{
@@ -234,3 +348,4 @@ footer{
         }    
     }
 }
+

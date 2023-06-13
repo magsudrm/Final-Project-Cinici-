@@ -39,15 +39,35 @@ $(document).ready(function() {
     ]
   });
 });
-document.addEventListener("DOMContentLoaded", function() {
-  var qadinLink = document.querySelector(".a-qadin");
-  var dropdownQadin = document.querySelector(".dropdown-qadin");
 
-  qadinLink.addEventListener("mouseover", function() {
-    dropdownQadin.style.display = "block";
-  });
+var thumbnails = document.querySelector('.slider');
+var thumbnailItems = thumbnails.querySelectorAll('.thumbnail');
+var mainDiv = document.getElementById('main-div');
 
-  dropdownQadin.addEventListener("mouseout", function() {
-    dropdownQadin.style.display = "none";
+thumbnailItems[0].classList.add('selected');
+mainDiv.innerHTML = `<img src="${thumbnailItems[0].querySelector('img').getAttribute('src')}" alt="">`;
+
+thumbnails.addEventListener('click', function (event) {
+  var target = event.target;
+  if (target.tagName === 'IMG') {
+    thumbnailItems.forEach(function (item) {
+      item.classList.remove('selected');
+    });
+
+    var thumbnail = target.parentElement;
+    thumbnail.classList.add('selected');
+
+    var src = target.getAttribute('src');
+    mainDiv.innerHTML = `<img src="${src}" alt="">`;
+  }
+});
+
+var sizeRadios = document.querySelectorAll('input[name="size"]');
+
+sizeRadios.forEach(function (radio) {
+  radio.addEventListener('change', function () {
+    var selectedSize = document.querySelector('input[name="size"]:checked').value;
+    console.log('Seçdiyiniz ölçü: ' + selectedSize);
   });
 });
+
