@@ -1,15 +1,11 @@
 $color1:#272727;
 $color2:#e4013a;
 $color3:#A5A5A5;
-.header-top{
-width: 100% ;
+header{
 margin-top: 2.5rem;
-display: flex;
-justify-content: space-between;
+
 }
 .header-top-right{
-    display: flex;
-    justify-content: end;
     i{
         margin-left: 1rem;
     }
@@ -33,19 +29,18 @@ justify-content: space-between;
     a{
         text-decoration: none;
         color: $color1;
-        margin-right: 3.5rem;
+        margin-right: 2rem;
         font-size: 14px;
-        margin-top: 1rem;
     }
 }
 .dropdown-content{
     background-color: #ffff;
     z-index: 1;
     position: absolute;
-    width: 70%;
-    height: 36rem;
-    left: 15rem;
-    top: 4.5rem;
+    width: 68%;
+    height: 33rem;
+    left: 10%;
+    top: 12%;
     display: none;
     a{
         display: block;
@@ -61,7 +56,100 @@ justify-content: space-between;
         padding: 2rem;
     }
 }
-
+.dropdown-content-kisi{
+    background-color: #ffff;
+    z-index: 1;
+    position: absolute;
+    width: 55%;
+    height: 33rem;
+    left: 10%;
+    top: 12%;
+    display: none;
+    a{
+        display: block;
+        text-decoration: none;
+        color: $color1;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .col-lg-3{
+        padding: 2rem;
+    }
+    .col-lg-4{
+        padding: 2rem;
+    }
+}
+.dropdown-content-usaq{
+    background-color: #ffff;
+    z-index: 1;
+    position: absolute;
+    width: 50%;
+    height: 25rem;
+    left: 10%;
+    top: 12%;
+    display: none;
+    a{
+        display: block;
+        text-decoration: none;
+        color: $color1;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .col-lg-3{
+        padding: 2rem;
+    }
+    .col-lg-4{
+        padding: 2rem;
+    }
+}
+.dropdown-content-aksesuar{
+    background-color: #ffff;
+    z-index: 1;
+    position: absolute;
+    width: 20%;
+    height: 15rem;
+    left: 40%;
+    top: 12%;
+    padding: 2rem;
+    display: none;
+    a{
+        display: block;
+        text-decoration: none;
+        color: $color1;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .col-lg-3{
+        padding: 2rem;
+    }
+    .col-lg-4{
+        padding: 2rem;
+    }
+}
+.dropdown-content-endirimli{
+    background-color: #ffff;
+    z-index: 1;
+    position: absolute;
+    width: 20%;
+    height: 13rem;
+    right: 30%;
+    top: 12%;
+    padding: 2rem;
+    display: none;
+    a{
+        display: block;
+        text-decoration: none;
+        color: $color1;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .col-lg-3{
+        padding: 2rem;
+    }
+    .col-lg-4{
+        padding: 2rem;
+    }
+}
 .dropdown-qadin{
     &:hover{
         .dropdown-content{
@@ -71,7 +159,28 @@ justify-content: space-between;
 }
 .dropdown-kisi{
     &:hover{
-        .dropdown-content{
+        .dropdown-content-kisi{
+            display: block;
+        }
+    }
+}
+.dropdown-usaq{
+    &:hover{
+        .dropdown-content-usaq{
+            display: block;
+        }
+    }
+}
+.dropdown-aksesuar{
+    &:hover{
+        .dropdown-content-aksesuar{
+            display: block;
+        }
+    }
+}
+.dropdown-endirimli{
+    &:hover{
+        .dropdown-content-endirimli{
             display: block;
         }
     }
@@ -414,6 +523,54 @@ justify-content: space-between;
     .input-div-contact{
         display: flex;
         justify-content: space-between;
+    }
+}
+.section-1-faq{
+    .col-lg-12{
+        margin-top: 4rem;
+    }
+    strong{
+        font-size: 1.1rem;
+        font-weight: 550;
+    }
+    p{
+        font-size: 1.1rem;
+        margin-top: 5px;
+        margin-bottom: 1rem;
+    }
+}
+.section-1-refund{
+    .col-lg-12{
+        margin-top: 4rem;
+    }
+    p{
+        color: $color1;
+        font-size: 1.1rem;
+        font-weight: 350;
+    }
+}
+.section-1-conditions{
+    p{
+        font-size: 1.1rem;
+        font-weight: 350;
+        line-height: 2rem;
+    }
+    strong{
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 3rem;
+    }
+}
+.section-1-privacy{
+    p{
+        font-size: 1.1rem;
+        font-weight: 350;
+        line-height: 2rem;
+    }
+    strong{
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 3rem;
     }
 }
 footer{
