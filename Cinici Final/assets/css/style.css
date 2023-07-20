@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat";
+}
+
 header {
   margin-top: 2.5rem;
 }
@@ -537,6 +541,36 @@ h3::after {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 3rem;
+}
+
+.section-1-shop {
+  margin-top: 5rem;
+}
+.section-1-shop img {
+  width: 100%;
+}
+.section-1-shop h5 {
+  color: #272727;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.section-1-shop p {
+  color: #A5A5A5;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.section-1-shop span {
+  color: #272727;
+  font-size: 14px;
+}
+.section-1-shop .col-lg-3 a {
+  text-decoration: none;
+  color: #272727;
+  font-size: 1.2rem;
+}
+.section-1-shop .col-lg-3 i {
+  display: flex;
+  justify-content: end;
 }
 
 footer {

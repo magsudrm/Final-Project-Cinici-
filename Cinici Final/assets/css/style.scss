@@ -1,6 +1,9 @@
 $color1:#272727;
 $color2:#e4013a;
 $color3:#A5A5A5;
+body{
+    font-family: 'Montserrat';
+}
 header{
 margin-top: 2.5rem;
 
@@ -571,6 +574,38 @@ margin-top: 2.5rem;
         font-size: 1.1rem;
         font-weight: 400;
         line-height: 3rem;
+    }
+}
+.section-1-shop{
+    img{
+        width: 100%;
+    }
+    h5{
+        color: $color1;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    p{
+        color: $color3;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    span{
+        color: $color1;
+        font-size: 14px
+
+    }
+    margin-top: 5rem;
+    .col-lg-3{
+        a{
+            text-decoration: none;
+            color: $color1;
+            font-size: 1.2rem;
+        }
+        i{
+            display: flex;
+            justify-content: end;
+        }
     }
 }
 footer{
