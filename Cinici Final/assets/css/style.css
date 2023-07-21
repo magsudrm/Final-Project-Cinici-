@@ -40,7 +40,7 @@ header {
   width: 68%;
   height: 33rem;
   left: 10%;
-  top: 12%;
+  top: 8%;
   display: none;
 }
 .dropdown-content a {
@@ -64,7 +64,7 @@ header {
   width: 55%;
   height: 33rem;
   left: 10%;
-  top: 12%;
+  top: 8%;
   display: none;
 }
 .dropdown-content-kisi a {
@@ -88,7 +88,7 @@ header {
   width: 50%;
   height: 25rem;
   left: 10%;
-  top: 12%;
+  top: 8%;
   display: none;
 }
 .dropdown-content-usaq a {
@@ -112,7 +112,7 @@ header {
   width: 20%;
   height: 15rem;
   left: 40%;
-  top: 12%;
+  top: 8%;
   padding: 2rem;
   display: none;
 }
@@ -137,7 +137,7 @@ header {
   width: 20%;
   height: 13rem;
   right: 30%;
-  top: 12%;
+  top: 8%;
   padding: 2rem;
   display: none;
 }
@@ -611,4 +611,153 @@ footer .col-lg-4 i {
 }
 footer .col-lg-4 i:hover {
   background-color: #e4013a;
+}
+
+#Login {
+  width: 100%;
+  margin-top: 50px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+#Login .login {
+  background-color: white;
+  padding-top: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.052);
+  width: 340px;
+  height: 500px;
+  padding: 30px;
+}
+#Login .login .main-text .text {
+  font-size: 17px;
+}
+#Login .login .email-password-text .email label {
+  display: block;
+  text-align: start;
+  font-family: sans-serif, monospace;
+}
+#Login .login .email-password-text .email input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.297);
+}
+#Login .login .email-password-text .password label {
+  display: block;
+  text-align: start;
+  font-family: sans-serif, monospace;
+}
+#Login .login .email-password-text .password input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.297);
+}
+#Login .login .resert-forgot {
+  margin-top: 10px;
+}
+#Login .login .resert-forgot a span {
+  font-size: 13px;
+}
+#Login .login .login-button {
+  padding: 10px 0;
+}
+#Login .login .login-button .login-button {
+  width: 100%;
+}
+#Login .login .login-button .login-button button {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  border-radius: 0;
+  height: 45px;
+}
+#Login .login .register-button {
+  padding: 30px 0;
+}
+#Login .login .register-button .register-btn {
+  border-radius: 0;
+  border: 1px solid black;
+  height: 45px;
+  width: 100%;
+}
+
+#Register {
+  width: 100%;
+  margin-top: 50px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+#Register form {
+  background-color: white;
+  height: 500px;
+  width: 700px;
+  margin-left: 40px;
+}
+#Register form .register-text-button-input {
+  height: 300px;
+  width: 100%;
+}
+#Register form .register-text-button-input .text {
+  text-align: center;
+}
+#Register form .register-text-button-input .text h5 {
+  margin-top: 30px;
+}
+#Register form .register-text-button-input .label-input {
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  height: 500px;
+}
+#Register form .register-text-button-input .label-input .row {
+  width: 100%;
+}
+#Register form .register-text-button-input .label-input .row .lable-left {
+  width: 300px;
+  height: 250px;
+  margin-left: 80px;
+}
+#Register form .register-text-button-input .label-input .row .lable-left label {
+  display: block;
+  text-align: start;
+  font-family: sans-serif, monospace;
+}
+#Register form .register-text-button-input .label-input .row .lable-left input {
+  width: 250px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.297);
+}
+#Register form .register-text-button-input .label-input .row .label-right {
+  width: 300px;
+  height: 250px;
+  margin-left: 80px;
+}
+#Register form .register-text-button-input .label-input .row .label-right label {
+  margin-top: 50px;
+  display: block;
+  color: rgba(0, 0, 0, 0.2549019608);
+}
+#Register form .register-text-button-input .label-input .row .label-right input {
+  width: 250px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.297);
+}
+#Register form .checkbox {
+  margin-top: 0;
+  padding: 0 0 30px 50px;
+}
+#Register form .register-button {
+  text-align: center;
+}
+#Register form .register-button .register-btn {
+  background-color: black;
+  border-radius: 0;
+  color: white;
+  width: 300px;
+  height: 50px;
 }/*# sourceMappingURL=style.css.map */
